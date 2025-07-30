@@ -92,7 +92,7 @@ export default function Home() {
             {/* Right Side - Important Dates */}
             <div className="lg:col-span-4">
               <div className="bg-gray-50/95 backdrop-blur-sm rounded-2xl p-6 shadow-2xl">
-                <div className="space-y-3">
+                <div className="space-y-2">
                   {[
                     { event: 'Paper Submission Deadline', date: 'January 15, 2026' },
                     { event: 'Notification of Acceptance', date: 'February 10, 2026' },
@@ -219,13 +219,6 @@ export default function Home() {
                   alt="Footer Image 2"
                   width={160}
                   height={200}
-                  className="rounded-lg bg-white p-1"
-                />
-                <Image
-                  src={ieee_pesu}
-                  alt="Footer Image 3"
-                  width={130}
-                  height={130}
                   className="rounded-lg bg-white p-1"
                 />
               </div>
