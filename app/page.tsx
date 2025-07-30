@@ -7,10 +7,10 @@ import ieee_pesu from '../public/ieeelogo.png'
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-white font-metrophobic">
       
       {/* Navigation */}
-      <nav className="font-michroma font-semibold fixed top-0 w-full bg-white/90 backdrop-blur-lg border-b border-gray-200 z-50">
+      <nav className="font-metrophobic font-semibold fixed top-0 w-full bg-white/90 backdrop-blur-lg border-b border-gray-200 z-50">
         <div className="mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-20">
             <Image
@@ -43,7 +43,7 @@ export default function Home() {
       </nav>
 
       {/* Hero Section */}
-      <section id='home' className="font-michroma pt-48 pb-20 px-4 sm:px-6 lg:px-8 relative overflow-hidden min-h-screen">
+      <section id='home' className="font-metrophobic pt-48 pb-20 px-4 sm:px-6 lg:px-8 relative overflow-hidden min-h-screen">
         {/* Background Video */}
         <video 
           autoPlay 
@@ -66,10 +66,10 @@ export default function Home() {
             <div className="lg:col-span-8 text-left p-8 mt-4">
               {/* Rounded effect for Welcome text */}
               <div className="rounded-2xl bg-gray-50/95 backdrop-blur-sm p-8 mb-8">
-                <h1 className="font-michroma text-4xl sm:text-5xl lg:text-6xl font-bold mb-6 drop-shadow-2xl" style={{ color: '#00377b' }}>
+                <h1 className="font-metrophobic text-4xl sm:text-5xl lg:text-6xl font-bold mb-6 drop-shadow-2xl" style={{ color: '#00377b' }}>
                   WELCOME TO ICIAI-2026
                 </h1>
-                <h2 className="font-michroma font-semibold text-xl sm:text-2xl lg:text-3xl font-medium mb-0 drop-shadow-xl" style={{ color: '#ff6c00' }}>
+                <h2 className="font-metrophobic font-semibold text-xl sm:text-2xl lg:text-3xl font-medium mb-0 drop-shadow-xl" style={{ color: '#ff6c00' }}>
                   International Conference on Interdisciplinary AI
                 </h2>
               </div>
@@ -99,7 +99,7 @@ export default function Home() {
                     { event: 'Camera-Ready Submission', date: 'February 25, 2026' },
                     { event: 'Conference Dates', date: 'July 30 & 31, 2026' },
                   ].map((item, index) => (
-                    <div key={index} className="font-michroma bg-white/90 p-4 rounded-lg border border-gray-200 hover:shadow-md transition-shadow backdrop-blur-sm">
+                    <div key={index} className="font-metrophobic bg-white/90 p-4 rounded-lg border border-gray-200 hover:shadow-md transition-shadow backdrop-blur-sm">
                       <div className="text-center">
                         <span className="block font-semibold text-sm mb-1" style={{ color: '#00377b' }}>{item.event}</span>
                         <span className="font-semibold text-sm" style={{ color: '#ff6c00' }}>{item.date}</span>
@@ -117,10 +117,10 @@ export default function Home() {
       {/* About Section */}
       <section id="about" className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="font-michroma text-4xl lg:text-5xl font-bold mb-12" style={{ color: '#00377b' }}>
+          <h2 className="font-metrophobic text-4xl lg:text-5xl font-bold mb-12" style={{ color: '#00377b' }}>
             About the Conference
           </h2>
-          <div className="font-michroma text-xl lg:text-2xl text-gray-700 leading-relaxed space-y-6 text-justify">
+          <div className="font-metrophobic text-xl lg:text-2xl text-gray-700 leading-relaxed space-y-6 text-justify">
             <p>
               <span className="font-bold">ICIAI-2026</span> is a premier international conference that brings together a diverse community of researchers, practitioners, academicians, and industry experts to delve into the transformative potential of interdisciplinary artificial intelligence.
             </p>
@@ -140,10 +140,10 @@ export default function Home() {
       {/* Scope Section */}
       <section id="scope" className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="font-michroma text-4xl lg:text-5xl font-bold mb-12" style={{ color: '#00377b' }}>
+          <h2 className="font-metrophobic text-4xl lg:text-5xl font-bold mb-12" style={{ color: '#00377b' }}>
             Scope
           </h2>
-          <div className="font-michroma text-xl lg:text-2xl text-gray-700 leading-relaxed space-y-6 text-justify">
+          <div className="font-metrophobic text-xl lg:text-2xl text-gray-700 leading-relaxed space-y-6 text-justify">
             <p>
               The primary objective of ICIAI-2026 is to highlight pioneering research and innovative developments in the interdisciplinary field of artificial intelligence. The conference serves as a platform for the presentation of peer-reviewed original technical papers from academia, research organizations, and industry, fostering collaboration and knowledge exchange across diverse domains.
             </p>
@@ -157,7 +157,7 @@ export default function Home() {
       {/* Topics Section */}
       <section id="topics" className="py-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-6xl mx-auto">
-          <h2 className="font-michroma text-4xl lg:text-5xl font-bold text-center mb-16" style={{ color: '#00377b' }}>
+          <h2 className="font-metrophobic text-4xl lg:text-5xl font-bold text-center mb-16" style={{ color: '#00377b' }}>
             Conference Topics
           </h2>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -174,7 +174,7 @@ export default function Home() {
                 key={index} 
                 className="topic-card bg-white p-6 rounded-xl border border-gray-200 hover:shadow-lg transition-all duration-300 cursor-pointer"
               >
-                <h3 className="font-semibold text-lg font-michroma" style={{ color: '#00377b' }}>
+                <h3 className="font-semibold text-lg font-metrophobic" style={{ color: '#00377b' }}>
                   {topic}
                 </h3>
               </div>
@@ -184,9 +184,9 @@ export default function Home() {
       </section>
 
       {/* Footer */}
-      <footer className="py-12 px-4 sm:px-6 lg:px-8 text-white" style={{ backgroundColor: '#00377b' }}>
+      <footer className="py-12 px-4 sm:px-6 lg:px-8 text-white font-metrophobic" style={{ backgroundColor: '#00377b' }}>
         <div className="max-w-6xl mx-auto">
-          <div className="font-michroma grid md:grid-cols-3 gap-8 mb-8">
+          <div className="grid md:grid-cols-3 gap-8 mb-8">
             <div>
               <h3 className="text-2xl font-bold mb-4">ICIAI-2026</h3>
               <p className="text-blue-200">
@@ -219,6 +219,13 @@ export default function Home() {
                   alt="Footer Image 2"
                   width={160}
                   height={200}
+                  className="rounded-lg bg-white p-1"
+                />
+                <Image
+                  src={ieee_pesu}
+                  alt="Footer Image 3"
+                  width={130}
+                  height={130}
                   className="rounded-lg bg-white p-1"
                 />
               </div>
