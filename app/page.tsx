@@ -19,7 +19,7 @@ export default function Home() {
           <div className="flex justify-between items-center h-20">
             
             {/* Left side - PESU Logo (desktop only) */}
-            <div className="hidden md:block ml-64">
+            <div className="hidden md:block ml-48">
               <Image
                 src={pesu_logo}
                 alt="PESU Logo"
@@ -183,7 +183,7 @@ export default function Home() {
 
             {/* Right Side - Important Dates */}
             <div className="lg:col-span-4 w-full">
-              <div className="bg-gray-50/95 backdrop-blur-sm rounded-2xl p-4 sm:p-6 shadow-2xl">
+              <div className="bg-gray-50/95 backdrop-blur-sm rounded-2xl p-4 sm:p-6 shadow-2xl max-w-2xl">
                 <div className="space-y-5">
                   {[
                     { event: 'Commencement of Paper Submissions', date: 'January 1, 2026' },
