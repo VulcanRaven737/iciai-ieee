@@ -19,7 +19,7 @@ export default function Home() {
           <div className="flex justify-between items-center h-20">
             
             {/* Left side - PESU Logo (desktop only) */}
-            <div className="hidden md:block ml-48">
+            <div className="hidden md:block">
               <Image
                 src={pesu_logo}
                 alt="PESU Logo"
