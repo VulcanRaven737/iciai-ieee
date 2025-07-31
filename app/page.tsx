@@ -94,9 +94,9 @@ export default function Home() {
               <div className="bg-gray-50/95 backdrop-blur-sm rounded-2xl p-6 shadow-2xl">
                 <div className="space-y-2">
                   {[
-                    { event: 'Paper Submission Deadline', date: 'January 15, 2026' },
-                    { event: 'Notification of Acceptance', date: 'February 10, 2026' },
-                    { event: 'Camera-Ready Submission', date: 'February 25, 2026' },
+                    { event: 'Paper Submission Deadline', date: 'April 30, 2026' },
+                    { event: 'Notification of Acceptance', date: 'May 31, 2026' },
+                    { event: 'Camera-Ready Submission', date: 'June 20, 2026' },
                     { event: 'Conference Dates', date: 'July 30 & 31, 2026' },
                   ].map((item, index) => (
                     <div key={index} className="font-metrophobic bg-white/90 p-4 rounded-lg border border-gray-200 hover:shadow-md transition-shadow backdrop-blur-sm">
